@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding-top: 0;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #fb942d;
+    border-radius: 5px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Start Banner CSS */
+#banner {
+    background: url('../images/Banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 216px 0px 166px 0px;
+}
+
+.banner-content {
+    width: 525px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.banner-content h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #151414;
+}
+
+.banner-content p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 32px 0px;
+}
+/* End Banner CSS */
+
+/* Start About CSS */
+#about {
+    padding: 130px 0;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 416px;
+}
+
+.about-text h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+}
+
+.about-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 16px 0px;
+}
+
+.about-text ul li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+
+.about-text ul li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fb942d;
+}
+/* End About CSS */
+
+/* Start Plans CSS */
+.title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.plans-itams-area {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plans-item h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding: 10px 0;
+}
+
+.plans-item p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* End Plans CSS */
+
+/* Start Services CSS */
+.services{
+    background-size: 1000px;
+    background-position: center;
+}
+.services-heading{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.services-heading h2{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 55px;
+    font-size: 2.2rem;
+    color:#22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+.services-heading p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color:#777474;
+    width:50%;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(90,118,253,0.15);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    flex-grow: 1;
+}
+.box img{
+    height:150px;
+    margin:10px;
+}
+.box h4{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: #777474;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+.box a{
+    font-family: 'Work Sans', sans-serif;
+    width:150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fb942d;;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #fb942d;;
+    margin:20px;
+}
+.box a:hover{
+    background-color: #5a76fd;
+    color:#fff;
+    box-shadow: 5px 10px 30px rgba(90,118,253,0.5);
+    transition: all ease 0.3s;
+}
+/* End Services CSS */
+
+/* Start Call-Now CSS */
+#call-now {
+    padding: 130px 0;
+}
+
+.call-now-area {
+    background: linear-gradient(to right, rgb(241, 91, 34), rgba(255, 255, 255, 0)), url('../images/watch.png');
+    padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.call-now-area h4 {
+    width: 459px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+#call-now .btn a {
+    background: #fff;
+    color: #fb942d;
+}
+/* End Call-Now CSS */
+
+/* Start Footer CSS */
+#footer {
+    background: #151414;
+    padding: 130px 0px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 485px;
+}
+
+.footer-info h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-info p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding: 16px 0px 24px 0px;
+}
+
+.footer-info a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.footer-icon {
+    padding-top: 16px;
+}
+
+.footer-icon img {
+    margin-right: 17px;
+}
+
+.footer-subscribe h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer-subscribe input {
+    display: block;
+    width: 305px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+#footer .btn a {
+    background: #fff;
+    color: #fb942d;
+}
+/* End Footer CSS */
