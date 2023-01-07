@@ -35,10 +35,13 @@ a {
 
 /* Start Banner CSS */
 #banner {
-    background: url('../images/Banner/banner1.jpg');
+    background-image: url(../images/banner/banner1.png);
+    height: 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 216px 0px 166px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .banner-content {
